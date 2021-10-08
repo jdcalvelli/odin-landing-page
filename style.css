@@ -102,3 +102,50 @@ body {
 .hero .content .image-placeholder p {
   color: #F9FAF8;
 }
+
+/*INFO SECTION*/
+
+.info {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 450px;
+
+  gap: 48px;
+}
+
+.info .card-section {
+  display: flex;
+  gap: 64px;
+}
+
+.info .card-section .card {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 150px;
+
+  text-align: center;
+}
+
+.info .card-section .card .card-image {
+  height: 150px;
+  width: 150px;
+
+  border: 3px solid #3882F6;
+  border-radius: 16px;
+
+  margin-bottom: 16px;
+}
+
+.info h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: extra-bold;
+}

@@ -47,7 +47,12 @@ body {
 .hero .navbar li {
   color: #E5E7EB;
   font-size: 18px;
+}
 
+.hero .navbar a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
 }
 
 /*content*/

@@ -238,3 +238,20 @@ body {
   color: #F9FAF8;
   font-size: 18px;
 }
+
+/*FOOTER SECTION*/
+
+.footer {
+  background-color: #1F2937;
+
+  height: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  color: #E5E7EB;
+  font-size: 18px;
+}

@@ -82,6 +82,8 @@ body {
 .hero .content button {
   background-color: #3882F6;
   padding: 8px 32px;
+
+  border: none;
   border-radius: 8px;
 
   color: #F9FAF8;

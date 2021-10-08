@@ -149,3 +149,36 @@ body {
   font-size: 36px;
   font-weight: extra-bold;
 }
+
+/*QUOTE SECTION*/
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 450px;
+  background-color: #E5E7EB;
+}
+
+.quote-section .quote {
+  width: 800px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-section .quote h1 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote-section .quote p {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+
+  align-self: flex-end;
+}
